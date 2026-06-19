@@ -6,7 +6,6 @@ export default function MovieCard({ movie, onToggle }) {
     } else {
         watchStatus = "NOT Watched"
     }
-
     let buttonLabel = "";
     if (movie.watched) {
         buttonLabel = "Mark as Unwatched";
